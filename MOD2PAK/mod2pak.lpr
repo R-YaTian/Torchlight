@@ -10,7 +10,6 @@ uses
   athreads,
   {$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  DefaultTranslator,
   Forms, formMod2Pak
   { you can add units after this };
 

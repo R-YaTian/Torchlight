@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls, Buttons,
-  EditBtn;
+  EditBtn, gettext, LCLTranslator;
 
 type
 
@@ -20,6 +20,9 @@ type
     cbSaveSettings: TCheckBox;
     deGameDir: TDirectoryEdit;
     ImageList: TImageList;
+    lblTranslator: TLabel;
+    lblContinueBY: TLabel;
+    lblOAuthor: TLabel;
     lblDirNote: TLabel;
     lblDescr: TLabel;
     lblDirHint: TLabel;
@@ -72,12 +75,21 @@ uses
   TL2Mod;
 
 resourcestring
-  sTitle  = 'Title';
-  sAuthor = 'Author';
-  sDescr  = 'Description';
+  sTitle        = 'Title';
+  sAuthor       = 'Author';
+  sDescr        = 'Description';
+  sDlgoFilter   = 'MOD files';
+  sDlgoTitle    = 'Choose MOD files to convert';
+  sMsgDropFiles = 'Can''t add files. Looks like you didn''t set game directory';
+  sMsgSomeFiles = ' already added. Do you want to update?';
+  sQuestion     = 'Question';
+  sInfomation   = 'Infomation';
+  sBtnYes       = 'Yes';
+  sBtnNo        = 'No';
+  sBtnOK        = 'OK';
 
 const
-  inifilename    = 'mod2pak.ini';
+  inifilename     = 'mod2pak.ini';
 const
   iniSection      = 'mod2pak';
   iniGameDir      = 'gamedir';
@@ -138,8 +150,8 @@ begin
         begin
           if UpCase(lbReserve.Items[j])=ls then
           begin
-DeleteFile(ldir+ls+'.PA_');
-DeleteFile(ldir+ls+'.PAK.MA_');
+            DeleteFile(ldir+ls+'.PA_');
+            DeleteFile(ldir+ls+'.PAK.MA_');
             RenameFile(ldir+ls+'.PAK'    ,ldir+ls+'.PA_');
             RenameFile(ldir+ls+'.PAK.MAN',ldir+ls+'.PAK.MA_');
             idx:=j;
@@ -172,8 +184,8 @@ DeleteFile(ldir+ls+'.PAK.MA_');
         begin
           if UpCase(lbActive.Items[j])=ls then
           begin
-DeleteFile(ldir+ls+'.PAK');
-DeleteFile(ldir+ls+'.PAK.MAN');
+            DeleteFile(ldir+ls+'.PAK');
+            DeleteFile(ldir+ls+'.PAK.MAN');
             RenameFile(ldir+ls+'.PA_'    ,ldir+ls+'.PAK');
             RenameFile(ldir+ls+'.PAK.MA_',ldir+ls+'.PAK.MAN');
             idx:=j;
@@ -195,8 +207,8 @@ DeleteFile(ldir+ls+'.PAK.MAN');
   begin
     ls:=lbActive.Items[i];
 //  DATE ORDER IS FROM OLD TO NEW
-    FileSetDate(ldir+ls+'.PAK'    ,ldate-lbActive.Count+i);
-    FileSetDate(ldir+ls+'.PAK.MAN',ldate-lbActive.Count+i);
+    FileSetDate(ldir+ls+'.PAK'    ,DateTimeToFileDate(ldate)-lbActive.Count+i);
+    FileSetDate(ldir+ls+'.PAK.MAN',DateTimeToFileDate(ldate)-lbActive.Count+i);
   end;
 
   sl.Free;
@@ -347,8 +359,8 @@ begin
       end;
     if idx<>0 then
     begin
-      if MessageDlg('Mod '+lfin+' added already. Do you want to update?',
-          mtConfirmation, [mbYes, mbNo],0)<>mrYes then exit;
+      if QuestionDlg(sQuestion, 'Mod '+lfin+sMsgSomeFiles,
+          mtConfirmation,[mrYes, sBtnYes, mrNo, sBtnNo, 'IsDefault'],0)<>mrYes then exit;
     end;
 {}
 //    PAKSplit(fin, ldir);
@@ -428,7 +440,7 @@ begin
       FLastModPath:=ExtractFilePath(FileNames[High(FileNames)]);
   end
   else
-    ShowMessage('Can''t add files. Looks like you didn''t set game directory');
+    QuestionDlg(sInfomation, sMsgDropFiles, mtInformation, [mrOK, sBtnOK, 'IsDefault'],0);
 end;
 
 procedure TfmMod2Pak.bbAddClick(Sender: TObject);
@@ -440,8 +452,8 @@ begin
   try
     dlgo.InitialDir:=FLastModPath;
     dlgo.DefaultExt:='.MOD';
-    dlgo.Filter    :='MOD files|*.MOD';
-    dlgo.Title     :='Choose MOD files to convert';
+    dlgo.Filter    :=sDlgoFilter + '|*.MOD';
+    dlgo.Title     :=sDlgoTitle;
     dlgo.Options   :=[ofAllowMultiSelect];
     if (dlgo.Execute) and (dlgo.Files.Count>0) then
     begin
@@ -604,9 +616,34 @@ end;
 
 procedure TfmMod2Pak.FormCreate(Sender: TObject);
 var
-  ldir:string;
+  ldir,LANG,FallbackLang:string;
+  i:integer;
+  lang_arg:boolean;
 begin
   ldir:=LoadSettings();
+  LANG:=' ';
+  FallbackLang:=' ';
+  lang_arg:=false;
+
+  for i := 1 to paramCount() do
+  begin
+    if paramStr(i) = '--lang' then
+    begin
+      lang_arg:=true;
+      break;
+    end;
+  end;
+
+  if (lang_arg<>true) then
+  begin
+    GetLanguageIDs(LANG,FallbackLang);
+    if (CompareStr(LANG,'zh_HK') = 0) or (CompareStr(LANG,'ch_TW') = 0) or
+       (CompareStr(LANG,'zh_MA') = 0) then
+      SetDefaultLang('cht')
+    else if (CompareStr(LANG,'zz_HK') = 0) or (CompareStr(LANG,'zz_MA') = 0) or
+       (CompareStr(LANG,'zh_SG') = 0) or (CompareStr(LANG,'ch_CH') = 0) then
+      SetDefaultLang('chs');
+  end;
 
   if FileExists(ldir+'\PAKS\DATA.PAK') then
   begin

@@ -3,113 +3,115 @@ msgstr "Content-Type: text/plain; charset=UTF-8"
 
 #: formmod2pak.sauthor
 msgid "Author"
-msgstr ""
+msgstr "作者"
 
 #: formmod2pak.sbtnno
 msgid "No"
-msgstr ""
+msgstr "取消"
 
 #: formmod2pak.sbtnok
 msgid "OK"
-msgstr ""
+msgstr "确定"
 
 #: formmod2pak.sbtnyes
 msgid "Yes"
-msgstr ""
+msgstr "确定"
 
 #: formmod2pak.sdescr
 msgctxt "formmod2pak.sdescr"
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #: formmod2pak.sdlgofilter
 msgid "MOD files"
-msgstr ""
+msgstr "MOD 檔案"
 
 #: formmod2pak.sdlgotitle
 msgid "Choose MOD files to convert"
-msgstr ""
+msgstr "选择 MOD 文件以转换"
 
 #: formmod2pak.sinfomation
 msgid "Infomation"
-msgstr ""
+msgstr "訊息"
 
 #: formmod2pak.smsgdropfiles
 msgid "Can't add files. Looks like you didn't set game directory"
-msgstr ""
+msgstr "尚未配置游戏目录，无法添加文件"
 
 #: formmod2pak.smsgsomefiles
 msgid " already added. Do you want to update?"
-msgstr ""
+msgstr " 已添加，要覆盖更新它吗？"
 
 #: formmod2pak.squestion
 msgid "Question"
-msgstr ""
+msgstr "询问信息"
 
 #: formmod2pak.stitle
 msgid "Title"
-msgstr ""
+msgstr "标题"
 
 #: tfmmod2pak.bbadd.caption
 msgid "Add"
-msgstr ""
+msgstr "添加"
 
 #: tfmmod2pak.bbapply.caption
 msgid "Apply"
-msgstr ""
+msgstr "应用"
 
 #: tfmmod2pak.bbclose.caption
 msgid "Close"
-msgstr ""
+msgstr "关闭"
 
 #: tfmmod2pak.bbdelete.caption
 msgid "Delete"
-msgstr ""
+msgstr "删除"
 
 #: tfmmod2pak.caption
 msgid "Torchlight 2 Mod2PAK Manager"
-msgstr ""
+msgstr "火炬之光2 MOD2PAK 管理器"
 
 #: tfmmod2pak.cbsavesettings.caption
 msgid "Remember last paths"
-msgstr ""
+msgstr "记住最后一次路径配置"
 
 #: tfmmod2pak.lblcontinueby.caption
 msgid "Continue By: R-YaTian"
-msgstr ""
+msgstr "后期更新: R-YaTian"
 
 #: tfmmod2pak.lbldescr.caption
 msgctxt "tfmmod2pak.lbldescr.caption"
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #: tfmmod2pak.lbldirhint.caption
 msgid "Choose Game Directory"
-msgstr ""
+msgstr "选择游戏根目录"
 
 #: tfmmod2pak.lbldirnote.caption
 msgid "* Files will be saved in PAKS subdir"
-msgstr ""
+msgstr "* 文件将会被保存在 PAKS 子目录"
 
 #: tfmmod2pak.lbloauthor.caption
 msgid "Original Author: Awkward"
-msgstr ""
+msgstr "原作者: Awkward"
 
 #: tfmmod2pak.lbltranslator.caption
 msgid "English Translator: Awkward"
-msgstr ""
+msgstr "正體中文翻譯: R-YaTian"
 
 #: tfmmod2pak.stactive.caption
 msgid "PAKs to load"
-msgstr ""
+msgstr "加载的 PAK"
 
 #: tfmmod2pak.stadd.caption
 msgid ""
 "Drag 'n' Drop MOD files on window or\n"
 "press \"Add\" button to choose manually"
 msgstr ""
+"拖动 MOD 文件到窗口中以添加\n"
+"或者点击 \"添加\" 按钮以手动选择"
 
 #: tfmmod2pak.streserve.caption
 msgid "Available PAKs"
-msgstr ""
+msgstr "可用的 PAK"
 

@@ -8,9 +8,10 @@
       <Unit>
         <Filename Value="mod2pak.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos Y="13"/>
-        <UsageCount Value="66"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="21" Y="13"/>
+        <UsageCount Value="80"/>
+        <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="formmod2pak.pas"/>
@@ -19,10 +20,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="formMod2Pak"/>
-        <TopLine Value="342"/>
-        <CursorPos X="33" Y="357"/>
-        <FoldState Value=" T4602 T7EFj T3jB0{Q2 pj9la08,"/>
-        <UsageCount Value="66"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="35" Y="9"/>
+        <FoldState Value=" TL HC21 T7EFm T3m3061 pj3jD08k"/>
+        <UsageCount Value="80"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -31,18 +32,17 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="RGGlobal"/>
         <EditorIndex Value="-1"/>
-        <CursorPos X="19" Y="8"/>
-        <UsageCount Value="64"/>
+        <TopLine Value="195"/>
+        <CursorPos X="3" Y="198"/>
+        <UsageCount Value="78"/>
       </Unit>
       <Unit>
         <Filename Value="..\TL2Lib\TL2Mod.pas"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="316"/>
-        <CursorPos X="6" Y="331"/>
-        <UsageCount Value="64"/>
-        <Loaded Value="True"/>
+        <CursorPos X="20" Y="326"/>
+        <UsageCount Value="78"/>
       </Unit>
       <Unit>
         <Filename Value="..\TL2Lib\rgmemory.pas"/>
@@ -50,28 +50,28 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="39"/>
         <CursorPos X="50" Y="55"/>
-        <UsageCount Value="18"/>
+        <UsageCount Value="17"/>
       </Unit>
       <Unit>
         <Filename Value="D:\Work\LazTrunk\lazarus\lcl\include\customlistbox.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="616"/>
         <CursorPos Y="641"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="8"/>
       </Unit>
       <Unit>
         <Filename Value="D:\Work\LazTrunk\lazarus\lcl\interfaces\win32\win32listsl.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="135"/>
         <CursorPos Y="152"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="8"/>
       </Unit>
       <Unit>
         <Filename Value="D:\Work\LazTrunk\lazarus\lcl\include\control.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="2897"/>
         <CursorPos X="25" Y="2912"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="..\TL2Lib\rgnode.pas"/>
@@ -79,131 +79,209 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="177"/>
         <CursorPos X="3" Y="188"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="H:\lazarus\fpc\3.2.2\source\rtl\win\wininc\func.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="170"/>
+        <CursorPos X="10" Y="185"/>
+        <UsageCount Value="11"/>
+      </Unit>
+      <Unit>
+        <Filename Value="H:\lazarus\fpc\3.2.2\source\packages\fcl-base\src\gettext.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="301"/>
+        <CursorPos X="11" Y="313"/>
+        <UsageCount Value="15"/>
+      </Unit>
+      <Unit>
+        <Filename Value="H:\lazarus\components\lazutils\translations.pas"/>
+        <UnitName Value="Translations"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="181"/>
+        <CursorPos X="10" Y="196"/>
+        <UsageCount Value="11"/>
+      </Unit>
+      <Unit>
+        <Filename Value="H:\lazarus\lcl\controls.pp"/>
+        <UnitName Value="Controls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="42"/>
+        <CursorPos X="3" Y="57"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="H:\lazarus\components\lazutils\uitypes.pas"/>
+        <UnitName Value="UITypes"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="81"/>
+        <CursorPos X="3" Y="19"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="H:\lazarus\fpc\3.2.2\source\packages\rtl-objpas\src\inc\system.uitypes.pp"/>
+        <UnitName Value="System.UITypes"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="178"/>
+        <CursorPos X="68" Y="198"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="H:\lazarus\lcl\dialogs.pp"/>
+        <UnitName Value="Dialogs"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="32"/>
+        <CursorPos X="41" Y="47"/>
         <UsageCount Value="10"/>
       </Unit>
+      <Unit>
+        <Filename Value="formmod2pak.lfm"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="211"/>
+        <CursorPos X="41" Y="219"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
     </Units>
-    <JumpHistory HistoryIndex="28">
+    <JumpHistory HistoryIndex="29">
       <Position>
         <Filename Value="formmod2pak.pas"/>
-        <Caret Line="392" Column="39" TopLine="75"/>
-      </Position>
-      <Position>
-        <Filename Value="formmod2pak.pas"/>
-        <Caret Line="378" Column="46" TopLine="378"/>
+        <Caret Line="442" Column="91" TopLine="427"/>
       </Position>
       <Position>
         <Filename Value="formmod2pak.pas"/>
-        <Caret Line="435" TopLine="420"/>
+        <Caret Line="441" Column="91" TopLine="425"/>
       </Position>
       <Position>
         <Filename Value="formmod2pak.pas"/>
-        <Caret Line="542" Column="18" TopLine="521"/>
+        <Caret Line="442" Column="91" TopLine="427"/>
       </Position>
       <Position>
         <Filename Value="formmod2pak.pas"/>
-        <Caret Line="428" Column="31" TopLine="413"/>
+        <Caret Line="626" Column="26" TopLine="609"/>
       </Position>
       <Position>
         <Filename Value="formmod2pak.pas"/>
-        <Caret Line="75" Column="32" TopLine="54"/>
+        <Caret Line="624" Column="39" TopLine="609"/>
       </Position>
       <Position>
         <Filename Value="formmod2pak.pas"/>
-        <Caret Line="446" Column="31" TopLine="417"/>
+        <Caret Line="626" Column="19" TopLine="609"/>
       </Position>
       <Position>
         <Filename Value="formmod2pak.pas"/>
-        <Caret Line="361" Column="45" TopLine="334"/>
+        <Caret Line="624" Column="40" TopLine="609"/>
       </Position>
       <Position>
         <Filename Value="formmod2pak.pas"/>
-        <Caret Line="360" Column="45" TopLine="344"/>
+        <Caret Line="626" Column="5"/>
       </Position>
       <Position>
         <Filename Value="formmod2pak.pas"/>
-        <Caret Line="488" TopLine="287"/>
+        <Caret Line="10" Column="10"/>
       </Position>
       <Position>
         <Filename Value="formmod2pak.pas"/>
-        <Caret Line="487" TopLine="458"/>
+        <Caret Line="625" Column="24" TopLine="612"/>
       </Position>
       <Position>
         <Filename Value="formmod2pak.pas"/>
-        <Caret Line="486" TopLine="457"/>
+        <Caret Line="9" Column="43"/>
       </Position>
       <Position>
         <Filename Value="formmod2pak.pas"/>
-        <Caret Line="488" TopLine="459"/>
+        <Caret Line="625" Column="37" TopLine="608"/>
       </Position>
       <Position>
         <Filename Value="formmod2pak.pas"/>
-        <Caret Line="589" Column="10" TopLine="567"/>
+        <Caret Line="629" Column="27" TopLine="612"/>
       </Position>
       <Position>
         <Filename Value="formmod2pak.pas"/>
-        <Caret Line="52" Column="28" TopLine="31"/>
+        <Caret Line="628" Column="46" TopLine="613"/>
       </Position>
       <Position>
         <Filename Value="formmod2pak.pas"/>
-        <Caret Line="616" Column="19" TopLine="587"/>
+        <Caret Line="630" Column="8" TopLine="613"/>
       </Position>
       <Position>
         <Filename Value="formmod2pak.pas"/>
-        <Caret Line="88" Column="18" TopLine="59"/>
+        <Caret Line="628" Column="3" TopLine="613"/>
       </Position>
       <Position>
         <Filename Value="formmod2pak.pas"/>
-        <Caret Line="607" Column="19" TopLine="583"/>
+        <Caret Line="624" Column="21" TopLine="616"/>
       </Position>
       <Position>
         <Filename Value="formmod2pak.pas"/>
-        <Caret Line="552" Column="22" TopLine="552"/>
+        <Caret Line="370" Column="33" TopLine="219"/>
       </Position>
       <Position>
         <Filename Value="formmod2pak.pas"/>
-        <Caret Line="60" TopLine="32"/>
+        <Caret Line="332" Column="3" TopLine="219"/>
       </Position>
       <Position>
         <Filename Value="formmod2pak.pas"/>
-        <Caret Line="579" TopLine="544"/>
+        <Caret Line="518" Column="18" TopLine="493"/>
       </Position>
       <Position>
         <Filename Value="formmod2pak.pas"/>
-        <Caret Line="557" Column="53" TopLine="557"/>
+        <Caret Line="517" Column="58" TopLine="493"/>
       </Position>
       <Position>
         <Filename Value="formmod2pak.pas"/>
-        <Caret Line="431" Column="72" TopLine="213"/>
+        <Caret Line="516" Column="58" TopLine="493"/>
       </Position>
       <Position>
         <Filename Value="formmod2pak.pas"/>
-        <Caret Line="580" Column="3" TopLine="574"/>
+        <Caret Line="515" Column="49" TopLine="493"/>
       </Position>
       <Position>
         <Filename Value="formmod2pak.pas"/>
-        <Caret Line="90" Column="2" TopLine="77"/>
+        <Caret Line="514" Column="58" TopLine="493"/>
       </Position>
       <Position>
         <Filename Value="formmod2pak.pas"/>
-        <Caret Line="357" Column="33" TopLine="342"/>
+        <Caret Line="512" Column="71" TopLine="493"/>
       </Position>
       <Position>
-        <Filename Value="..\TL2Lib\TL2Mod.pas"/>
-        <Caret Line="331" Column="6" TopLine="316"/>
+        <Filename Value="formmod2pak.pas"/>
+        <Caret Line="509" Column="3" TopLine="493"/>
       </Position>
       <Position>
-        <Filename Value="..\TL2Lib\TL2Mod.pas"/>
-        <Caret Line="301" Column="16" TopLine="286"/>
+        <Filename Value="formmod2pak.pas"/>
+        <Caret Line="338" Column="22" TopLine="228"/>
       </Position>
       <Position>
-        <Filename Value="..\TL2Lib\TL2Mod.pas"/>
-        <Caret Line="331" Column="6" TopLine="316"/>
+        <Filename Value="formmod2pak.pas"/>
+        <Caret Line="629" Column="31" TopLine="612"/>
+      </Position>
+      <Position>
+        <Filename Value="mod2pak.lpr"/>
+        <Caret Line="13" Column="3"/>
+      </Position>
+      <Position>
+        <Filename Value="formmod2pak.pas"/>
+        <Caret Line="642" Column="7" TopLine="628"/>
       </Position>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
-      <Modes ActiveMode=""/>
+      <Modes ActiveMode="default">
+        <Mode Name="default"/>
+      </Modes>
     </RunParams>
+    <HistoryLists>
+      <List Name="WorkingDirectory" Type="File" Count="1"/>
+      <List Name="LaunchingApplication" Type="File" Count="1">
+        <Item1 Value="C:\windows\system32\cmd.exe /C ${TargetCmdLine}"/>
+      </List>
+      <List Name="CommandLineParameters" Count="2">
+        <Item2 Value="--lang ru"/>
+      </List>
+    </HistoryLists>
   </ProjectSession>
   <Debugging>
     <Watches>

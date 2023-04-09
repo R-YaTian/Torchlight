@@ -5,34 +5,78 @@ msgstr "Content-Type: text/plain; charset=UTF-8"
 msgid "Author"
 msgstr "Автор"
 
+#: formmod2pak.sbtnno
+msgid "No"
+msgstr ""
+
+#: formmod2pak.sbtnok
+msgid "OK"
+msgstr ""
+
+#: formmod2pak.sbtnyes
+msgid "Yes"
+msgstr ""
+
 #: formmod2pak.sdescr
 msgctxt "formmod2pak.sdescr"
 msgid "Description"
 msgstr "Описание"
+
+#: formmod2pak.sdlgofilter
+msgid "MOD files"
+msgstr ""
+
+#: formmod2pak.sdlgotitle
+msgid "Choose MOD files to convert"
+msgstr ""
+
+#: formmod2pak.sinfomation
+msgid "Infomation"
+msgstr ""
+
+#: formmod2pak.smsgdropfiles
+msgid "Can't add files. Looks like you didn't set game directory"
+msgstr ""
+
+#: formmod2pak.smsgsomefiles
+msgid " already added. Do you want to update?"
+msgstr ""
+
+#: formmod2pak.squestion
+msgid "Question"
+msgstr ""
 
 #: formmod2pak.stitle
 msgid "Title"
 msgstr "Название"
 
 #: tfmmod2pak.bbadd.caption
-msgid "&Add"
+msgid "Add"
 msgstr "Доб."
 
 #: tfmmod2pak.bbapply.caption
-msgid "&Apply"
+msgid "Apply"
 msgstr "Прим."
 
 #: tfmmod2pak.bbclose.caption
-msgid "&Close"
+msgid "Close"
 msgstr "Закрыть"
 
 #: tfmmod2pak.bbdelete.caption
 msgid "Delete"
 msgstr "Удалить"
 
+#: tfmmod2pak.caption
+msgid "Torchlight 2 Mod2PAK Manager"
+msgstr ""
+
 #: tfmmod2pak.cbsavesettings.caption
 msgid "Remember last paths"
 msgstr "Запомнить последние пути"
+
+#: tfmmod2pak.lblcontinueby.caption
+msgid "Continue By: R-YaTian"
+msgstr ""
 
 #: tfmmod2pak.lbldescr.caption
 msgctxt "tfmmod2pak.lbldescr.caption"
@@ -45,7 +89,15 @@ msgstr "Укажите папку игры"
 
 #: tfmmod2pak.lbldirnote.caption
 msgid "* Files will be saved in PAKS subdir"
-msgstr "* Файлы будут сохранены в подкаталоге PAK"
+msgstr "* Файлы будут сохранены в подкаталоге PAKS"
+
+#: tfmmod2pak.lbloauthor.caption
+msgid "Original Author: Awkward"
+msgstr ""
+
+#: tfmmod2pak.lbltranslator.caption
+msgid "English Translator: Awkward"
+msgstr "Russian Translator: Awkward"
 
 #: tfmmod2pak.stactive.caption
 msgid "PAKs to load"
