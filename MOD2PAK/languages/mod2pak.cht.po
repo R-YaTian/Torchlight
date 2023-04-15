@@ -11,11 +11,11 @@ msgstr "取消"
 
 #: formmod2pak.sbtnok
 msgid "OK"
-msgstr "确定"
+msgstr "確定"
 
 #: formmod2pak.sbtnyes
 msgid "Yes"
-msgstr "确定"
+msgstr "確定"
 
 #: formmod2pak.sdescr
 msgctxt "formmod2pak.sdescr"
@@ -28,7 +28,7 @@ msgstr "MOD 檔案"
 
 #: formmod2pak.sdlgotitle
 msgid "Choose MOD files to convert"
-msgstr "选择 MOD 文件以转换"
+msgstr "選擇要轉換的 MOD 檔案"
 
 #: formmod2pak.sinfomation
 msgid "Infomation"
@@ -36,47 +36,47 @@ msgstr "訊息"
 
 #: formmod2pak.smsgdropfiles
 msgid "Can't add files. Looks like you didn't set game directory"
-msgstr "尚未配置游戏目录，无法添加文件"
+msgstr "無法新增檔案，看起來您尚未設定遊戲目錄。"
 
 #: formmod2pak.smsgsomefiles
 msgid " already added. Do you want to update?"
-msgstr " 已添加，要覆盖更新它吗？"
+msgstr " 已經新增。您要進行更新嗎？"
 
 #: formmod2pak.squestion
 msgid "Question"
-msgstr "询问信息"
+msgstr "問題"
 
 #: formmod2pak.stitle
 msgid "Title"
-msgstr "标题"
+msgstr "標題"
 
 #: tfmmod2pak.bbadd.caption
 msgid "Add"
-msgstr "添加"
+msgstr "新增"
 
 #: tfmmod2pak.bbapply.caption
 msgid "Apply"
-msgstr "应用"
+msgstr "應用"
 
 #: tfmmod2pak.bbclose.caption
 msgid "Close"
-msgstr "关闭"
+msgstr "關閉"
 
 #: tfmmod2pak.bbdelete.caption
 msgid "Delete"
-msgstr "删除"
+msgstr "刪除"
 
 #: tfmmod2pak.caption
 msgid "Torchlight 2 Mod2PAK Manager"
-msgstr "火炬之光2 MOD2PAK 管理器"
+msgstr "火炬之光2 MOD2PAK 管理工具"
 
 #: tfmmod2pak.cbsavesettings.caption
 msgid "Remember last paths"
-msgstr "记住最后一次路径配置"
+msgstr "記錄最近路徑"
 
 #: tfmmod2pak.lblcontinueby.caption
 msgid "Continue By: R-YaTian"
-msgstr "后期更新: R-YaTian"
+msgstr "後續更新: R-YaTian"
 
 #: tfmmod2pak.lbldescr.caption
 msgctxt "tfmmod2pak.lbldescr.caption"
@@ -85,11 +85,11 @@ msgstr "描述"
 
 #: tfmmod2pak.lbldirhint.caption
 msgid "Choose Game Directory"
-msgstr "选择游戏根目录"
+msgstr "選取遊戲目錄"
 
 #: tfmmod2pak.lbldirnote.caption
 msgid "* Files will be saved in PAKS subdir"
-msgstr "* 文件将会被保存在 PAKS 子目录"
+msgstr "* 檔案會儲存在 PAKS 子目錄中"
 
 #: tfmmod2pak.lbloauthor.caption
 msgid "Original Author: Awkward"
@@ -101,15 +101,15 @@ msgstr "正體中文翻譯: R-YaTian"
 
 #: tfmmod2pak.stactive.caption
 msgid "PAKs to load"
-msgstr "加载的 PAK"
+msgstr "需要載入的 PAK"
 
 #: tfmmod2pak.stadd.caption
 msgid ""
 "Drag 'n' Drop MOD files on window or\n"
 "press \"Add\" button to choose manually"
 msgstr ""
-"拖动 MOD 文件到窗口中以添加\n"
-"或者点击 \"添加\" 按钮以手动选择"
+"將 MOD 檔案拖曳到視窗上\n"
+"或是按下 \"新增\" 按鈕手動選取"
 
 #: tfmmod2pak.streserve.caption
 msgid "Available PAKs"
